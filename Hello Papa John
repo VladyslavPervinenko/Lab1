@@ -1,0 +1,18 @@
+#include <conio.h>
+#include <iostream>
+#include <windows.h>
+
+void main()
+{
+    SetConsoleCP(1251); //Тільки для шрифту Lucida Console
+    SetConsoleOutputCP(1251); //Тільки для шрифту Lucida Console
+   
+    int a;
+    std::cout << "Впишіть число: ";
+    std::cin >> a;
+    std::cout << "Ви написали: " << a;
+
+ 
+    _getch();
+
+}
